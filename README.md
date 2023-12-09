@@ -1,1 +1,1 @@
-##FOX site template (from Rastchin) create by react and tailwind
+## FOX site template (from Rastchin) made with react and tailwind

@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: vazir;
+        src: url("./fonts/Vazir/Vazir.ttf");
+    }
+
+    body{
+        font-family: vazir;
+        direction: rtl;
+    }
+}
+
+@layer utilities{
+    .container-Primary{
+        @apply  mx-auto px-36;
+    }
+    .li-header{
+        @apply hover:border-b-2 border-white transition-all cursor-pointer;
+    }
+}
