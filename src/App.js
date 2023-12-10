@@ -6,6 +6,7 @@ import About from "./components/About/About"
 import Features from "./components/Features/Features"
 import OtherFeatures from "./components/OtherFeatures/OtherFeatures"
 import WatchVideo from "./components/WatchVideo/WatchVideo"
+import Screenshots from "./components/Screenshots/Screenshots"
 function App() {
   return (
     <div className="">
@@ -22,6 +23,7 @@ function App() {
       <Features />
       <OtherFeatures />
       <WatchVideo />
+      <Screenshots />
     </div>
   )
 }
