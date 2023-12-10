@@ -7,7 +7,15 @@ module.exports = {
     
     extend: {
       colors:{
-        'primary':'#00cdcd'
+        'primary':'#00cdcd',
+        'secondary' : '#F2CE5F'
+      },
+      boxShadow:{
+        'border-b-secondary' : '0 3px 0px 0px #F2CE5F',
+        'border-b-white' : '0 2px 0px 0px white'
+      },
+      backgroundImage: {
+        'img-primary': "url('../public/imgs/gray-bg.jpg')",
       }
     },
   },

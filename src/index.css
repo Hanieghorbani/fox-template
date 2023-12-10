@@ -19,6 +19,6 @@
         @apply  mx-auto px-36;
     }
     .li-header{
-        @apply hover:border-b-2 border-white transition-all cursor-pointer;
+        @apply hover:shadow-border-b-white transition-all cursor-pointer;
     }
 }
