@@ -11,11 +11,12 @@
     body{
         font-family: vazir;
         direction: rtl;
+        overflow-x: hidden
     }
 }
 
 @layer utilities{
-    .container-Primary{
+    .container-primary{
         @apply  mx-auto px-36;
     }
     .li-header{
