@@ -5,6 +5,7 @@ import Box from "./components/Box/Box"
 import About from "./components/About/About"
 import Features from "./components/Features/Features"
 import OtherFeatures from "./components/OtherFeatures/OtherFeatures"
+import WatchVideo from "./components/WatchVideo/WatchVideo"
 function App() {
   return (
     <div className="">
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Features />
       <OtherFeatures />
+      <WatchVideo />
     </div>
   )
 }

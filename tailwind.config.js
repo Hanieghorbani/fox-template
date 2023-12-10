@@ -17,10 +17,13 @@ module.exports = {
       },
       backgroundImage: {
         'img-primary': "url('../public/imgs/gray-bg.jpg')",
+        'img-people': "url('../public/imgs/people.jpg')",
       },
       animation: {
         'spin-slow': 'spin 20s linear infinite',
-      }
+        'ping-slow': 'ping 2s linear infinite',
+        'shadow': 'shadow 2s linear infinite',
+      },
     },
   },
   plugins: [],
