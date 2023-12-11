@@ -9,6 +9,7 @@ import WatchVideo from "./components/WatchVideo/WatchVideo"
 import Screenshots from "./components/Screenshots/Screenshots"
 import FunFacts from "./components/FunFacts/FunFacts"
 import Price from "./components/Price/Price"
+import Team from "./components/Team/Team"
 function App() {
   return (
     <div className="">
@@ -28,6 +29,7 @@ function App() {
       <Screenshots />
       <FunFacts />
       <Price />
+      <Team />
     </div>
   )
 }
