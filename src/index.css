@@ -7,6 +7,14 @@
         font-family: vazir;
         src: url("./fonts/Vazir/Vazir.ttf");
     }
+    @font-face {
+        font-family: shabnam;
+        src: url("./fonts/Shabnam.ttf");
+    }
+    @font-face {
+        font-family: salamat;
+        src: url("./fonts/Salamat.ttf");
+    }
 
     body{
         font-family: vazir;
@@ -24,5 +32,8 @@
     }
     .center-position{
         @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 
+    }
+    .btn-primary{
+        @apply bg-white text-primary rounded-3xl py-3 px-8 mt-10 hover:bg-secondary hover:text-white transition-all;
     }
 }

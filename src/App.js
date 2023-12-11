@@ -7,6 +7,8 @@ import Features from "./components/Features/Features"
 import OtherFeatures from "./components/OtherFeatures/OtherFeatures"
 import WatchVideo from "./components/WatchVideo/WatchVideo"
 import Screenshots from "./components/Screenshots/Screenshots"
+import FunFacts from "./components/FunFacts/FunFacts"
+import Price from "./components/Price/Price"
 function App() {
   return (
     <div className="">
@@ -24,6 +26,8 @@ function App() {
       <OtherFeatures />
       <WatchVideo />
       <Screenshots />
+      <FunFacts />
+      <Price />
     </div>
   )
 }
