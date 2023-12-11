@@ -2,29 +2,29 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
-    
     extend: {
-      colors:{
-        'primary':'#00cdcd',
-        'secondary' : '#F2CE5F',
-        'minorTX':'#303952'
+      colors: {
+        primary: "#00cdcd",
+        secondary: "#F2CE5F",
+        minorTX: "#303952",
       },
-      boxShadow:{
-        'border-b-secondary' : '0 3px 0px 0px #F2CE5F',
-        'border-b-white' : '0 2px 0px 0px white'
+      boxShadow: {
+        "border-b-secondary": "0 3px 0px 0px #F2CE5F",
+        "border-b-white": "0 2px 0px 0px white",
       },
       backgroundImage: {
-        'img-primary': "url('../public/imgs/gray-bg.jpg')",
-        'img-people': "url('../public/imgs/people.jpg')",
+        "img-primary": "url('../public/imgs/gray-bg.jpg')",
+        "img-people": "url('../public/imgs/people.jpg')",
       },
       animation: {
-        'spin-slow': 'spin 20s linear infinite',
-        'ping-slow': 'ping 2s linear infinite',
-        'shadow': 'shadow 2s linear infinite',
+        "spin-slow": "spin 20s linear infinite",
+        "ping-slow": "ping 2s linear infinite",
+        shadow: "shadow 2s linear infinite",
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 }

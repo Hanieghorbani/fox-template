@@ -10,6 +10,7 @@ import Screenshots from "./components/Screenshots/Screenshots"
 import FunFacts from "./components/FunFacts/FunFacts"
 import Price from "./components/Price/Price"
 import Team from "./components/Team/Team"
+import Faq from "./components/Faq/Faq"
 function App() {
   return (
     <div className="">
@@ -30,6 +31,7 @@ function App() {
       <FunFacts />
       <Price />
       <Team />
+      <Faq />
     </div>
   )
 }
