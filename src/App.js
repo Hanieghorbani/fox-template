@@ -11,6 +11,12 @@ import FunFacts from "./components/FunFacts/FunFacts"
 import Price from "./components/Price/Price"
 import Team from "./components/Team/Team"
 import Faq from "./components/Faq/Faq"
+import Logos from "./components/Logos/Logos"
+import RecentNews from "./components/RecentNews/RecentNews"
+import DownloadApp from "./components/DownloadApp/DownloadApp"
+import Contact from "./components/Contact/Contact"
+import Map from "./components/Map/Map"
+import Footer from "./components/Footer/Footer"
 function App() {
   return (
     <div className="">
@@ -18,7 +24,7 @@ function App() {
         <Header />
         <Landing />
       </section>
-      <section className="container-primary flex justify-between gap-5 mt-10 group mb-10">
+      <section className="container-primary flex justify-between gap-5 my-36 group">
         <Box title="طراحی خلاقانه" icon="PiMagicWandThin" />
         <Box title="پشتیبانی رایگان" icon="GoRocket" />
         <Box title="طراحی اختصاصی" icon="IoDiamondOutline" />
@@ -32,6 +38,12 @@ function App() {
       <Price />
       <Team />
       <Faq />
+      <Logos />
+      <RecentNews />
+      <DownloadApp />
+      <Contact />
+      <Map />
+      <Footer />
     </div>
   )
 }

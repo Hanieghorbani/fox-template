@@ -18,6 +18,7 @@ module.exports = {
       backgroundImage: {
         "img-primary": "url('../public/imgs/gray-bg.jpg')",
         "img-people": "url('../public/imgs/people.jpg')",
+        "img-dark": "url('../public/imgs/footer-bg.jpg')",
       },
       animation: {
         "spin-slow": "spin 20s linear infinite",
