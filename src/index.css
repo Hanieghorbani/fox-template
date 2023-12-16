@@ -50,7 +50,7 @@
         @apply bg-white text-primary rounded-[2rem] py-3 px-8 hover:bg-secondary hover:text-white transition-all duration-500;
     }
     .btn-secondary {
-        @apply bg-primary text-white rounded-[2.5rem] py-3 px-8 hover:bg-secondary hover:text-white transition-all duration-500;
+        @apply bg-primary text-white rounded-[2.5rem] py-3 px-5 hover:bg-secondary hover:text-white transition-all duration-500;
     }
     .form-contact {
         @apply w-full border-0 border-b-2 border-primary  focus:border-secondary focus:border-b-4;
