@@ -17,7 +17,12 @@ import DownloadApp from "./components/DownloadApp/DownloadApp"
 import Contact from "./components/Contact/Contact"
 import Map from "./components/Map/Map"
 import Footer from "./components/Footer/Footer"
+import { useEffect } from "react"
+import Aos from "aos"
 function App() {
+  useEffect(()=>{
+    Aos.init({})
+  },[])
   return (
     <div className="">
       <section className="text-white">
@@ -25,9 +30,9 @@ function App() {
         <Landing />
       </section>
       <section className="container-primary flex justify-between gap-5 my-36 group">
-        <Box title="طراحی خلاقانه" icon="PiMagicWandThin" />
-        <Box title="پشتیبانی رایگان" icon="GoRocket" />
-        <Box title="طراحی اختصاصی" icon="IoDiamondOutline" />
+        <Box title="طراحی خلاقانه" icon="PiMagicWandThin" duration='500'/>
+        <Box title="پشتیبانی رایگان" icon="GoRocket" duration='700'/>
+        <Box title="طراحی اختصاصی" icon="IoDiamondOutline" duration='1300'/>
       </section>
       <About />
       <Features />
