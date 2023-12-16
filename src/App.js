@@ -24,12 +24,12 @@ function App() {
     Aos.init({})
   },[])
   return (
-    <div className="">
+    <div className="ov overflow-x-hidden">
       <section className="text-white">
         <Header />
         <Landing />
       </section>
-      <section className="container-primary flex justify-between gap-5 my-36 group">
+      <section className="container-primary flex sm:flex-col md:flex-row justify-between gap-5 sm:my-14 lg:my-36 group">
         <Box title="طراحی خلاقانه" icon="PiMagicWandThin" duration='500'/>
         <Box title="پشتیبانی رایگان" icon="GoRocket" duration='700'/>
         <Box title="طراحی اختصاصی" icon="IoDiamondOutline" duration='1300'/>

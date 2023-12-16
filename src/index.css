@@ -21,11 +21,24 @@
         direction: rtl;
         overflow-x: hidden;
     }
+
+    ::-webkit-scrollbar{
+        width: 1rem;
+    }
+    
+    /* ::-webkit-scrollbar-track{
+        @apply bg-gray-20;
+    }
+     */
+    ::-webkit-scrollbar-thumb{
+        @apply bg-primary rounded-3xl m-3;
+    }
+    
 }
 
 @layer utilities {
     .container-primary {
-        @apply mx-auto px-36;
+        @apply mx-auto sm:px-10 md:px-20 lg:px-36;
     }
     .li-header {
         @apply hover:shadow-border-b-white transition-all cursor-pointer;

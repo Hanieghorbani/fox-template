@@ -26,6 +26,13 @@ module.exports = {
         shadow: "shadow 2s linear infinite",
       },
     },
+    screens: {
+      sm: "350px",
+      smMd:'500px',
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+    },
   },
   plugins: [require("flowbite/plugin")],
 }
