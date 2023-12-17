@@ -43,6 +43,10 @@
     .li-header {
         @apply hover:shadow-border-b-white transition-all cursor-pointer;
     }
+
+    .li-sidebar{
+       @apply transition-all cursor-pointer hover:text-secondary
+    }
     .center-position {
         @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
     }
