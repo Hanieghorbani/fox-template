@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/fox-template/static/css/main.902c022f.css",
+    "main.js": "/fox-template/static/js/main.8ee6b1a6.js",
+    "static/media/people.jpg": "/fox-template/static/media/people.81c70f483b52f424faae.jpg",
+    "static/media/Shabnam.ttf": "/fox-template/static/media/Shabnam.5b9b09c283c263361c6d.ttf",
+    "static/media/Vazir.ttf": "/fox-template/static/media/Vazir.8698ab7164cb8aa9f35b.ttf",
+    "static/media/gray-bg.jpg": "/fox-template/static/media/gray-bg.3b4432fcbd1ef7ea0d65.jpg",
+    "static/media/footer-bg.jpg": "/fox-template/static/media/footer-bg.e4696f335d1756202651.jpg",
+    "static/media/Salamat.ttf": "/fox-template/static/media/Salamat.29374034ee1e99071240.ttf",
+    "index.html": "/fox-template/index.html",
+    "main.902c022f.css.map": "/fox-template/static/css/main.902c022f.css.map",
+    "main.8ee6b1a6.js.map": "/fox-template/static/js/main.8ee6b1a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.902c022f.css",
+    "static/js/main.8ee6b1a6.js"
+  ]
+}
