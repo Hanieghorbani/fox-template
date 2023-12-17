@@ -56,7 +56,7 @@
         @apply w-full border-0 border-b-2 border-primary  focus:border-secondary focus:border-b-4;
     }
     .form-error {
-        @apply rounded-xl text-white bg-secondary  py-1 px-3 mt-3 after:content-["▲"] after:absolute after:right-2 after:text-secondary;
+        @apply text-sm rounded-xl text-white bg-secondary  py-1 px-3 mt-3 after:content-["▲"] after:absolute after:right-2 after:text-secondary;
     }
   
 }
