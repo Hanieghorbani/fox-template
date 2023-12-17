@@ -2,7 +2,7 @@ import React from "react"
 import TeamBox from "./TeamBox"
 export default function Team() {
   return (
-    <div className="bg-img-primary bg-cover py-20">
+    <div className="bg-img-primary bg-cover py-20" id="team">
       <div className="container-primary flex flex-col items-center justify-center gap-10">
         <h1
           className="text-minorTX sm:text-4xl md:text-7xl font-bold"

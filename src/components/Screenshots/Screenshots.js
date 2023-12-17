@@ -9,7 +9,7 @@ import "swiper/css/pagination"
 
 export default function Screenshots() {
   return (
-    <div className="bg-img-primary bg-cover py-36">
+    <div className="bg-img-primary bg-cover py-36" id="screenShots">
       <div className="container-primary flex flex-col items-center gap-10">
         <h1
           className="text-minorTX sm:text-4xl md:text-7xl font-bold"

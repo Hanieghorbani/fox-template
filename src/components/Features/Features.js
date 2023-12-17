@@ -2,7 +2,7 @@ import React from "react"
 import FeatureBox from "./FeatureBox"
 export default function Features() {
   return (
-    <div className="container-primary flex flex-col justify-center items-center my-10 gap-10">
+    <div className="container-primary flex flex-col justify-center items-center my-10 gap-10" id="features">
       <h1
         className="sm:text-4xl md:text-7xl font-bold text-minorTX"
         data-aos="zoom-in"

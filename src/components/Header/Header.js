@@ -24,19 +24,33 @@ export default function Header() {
   return (
     <div
       className={`container-primary bg-primary flex justify-between items-center pt-8 pb-5 shadow ${
-        isTopbarVisible && "fixed top-0 z-40 w-full" 
+        isTopbarVisible && "fixed top-0 z-40 w-full"
       }`}
     >
       <img src="/imgs/fox-logo.png" alt="logo" className="cursor-pointer" />
 
       <ul className="flex justify-between text-lg w-1/2 sm:hidden lg:flex">
-        <li className="li-header">خانه</li>
-        <li className="li-header">درباره</li>
-        <li className="li-header">ویژگی ها</li>
-        <li className="li-header">تصاویر</li>
-        <li className="li-header">تیم</li>
-        <li className="li-header">اخبار</li>
-        <li className="li-header">تماس</li>
+        <a href="#landing" className="li-header">
+          خانه
+        </a>
+        <a href="#about" className="li-header">
+          درباره
+        </a>
+        <a href="#features" className="li-header">
+          ویژگی ها
+        </a>
+        <a href="#screenShots" className="li-header">
+          تصاویر
+        </a>
+        <a href="#team" className="li-header">
+          تیم
+        </a>
+        <a href="#news" className="li-header">
+          اخبار
+        </a>
+        <a href="#contact" className="li-header">
+          تماس
+        </a>
       </ul>
       <FaBars
         className="sm:block lg:hidden text-2xl cursor-pointer"
@@ -106,14 +120,28 @@ export default function Header() {
                         </Dialog.Title>
                       </div>
                       <div className="relative mt-6 flex-1 px-4 sm:px-6">
-                        <ul className="space-y-5 text-lg text-white">
-                          <li className="li-sidebar">خانه</li>
-                          <li className="li-sidebar">درباره</li>
-                          <li className="li-sidebar">ویژگی ها</li>
-                          <li className="li-sidebar">تصاویر</li>
-                          <li className="li-sidebar">تیم</li>
-                          <li className="li-sidebar">اخبار</li>
-                          <li className="li-sidebar">تماس</li>
+                        <ul className="flex flex-col space-y-5 text-lg text-white">
+                          <a href="#landing" className="li-sidebar" onClick={()=>setIsOpenSidebar(false)}>
+                            خانه
+                          </a>
+                          <a href="#about" className="li-sidebar" onClick={()=>setIsOpenSidebar(false)}>
+                            درباره
+                          </a>
+                          <a href="#features" className="li-sidebar" onClick={()=>setIsOpenSidebar(false)}>
+                            ویژگی ها
+                          </a>
+                          <a href="#screenShots" className="li-sidebar" onClick={()=>setIsOpenSidebar(false)}>
+                            تصاویر
+                          </a>
+                          <a href="#team" className="li-sidebar" onClick={()=>setIsOpenSidebar(false)}>
+                            تیم
+                          </a>
+                          <a href="#news" className="li-sidebar" onClick={()=>setIsOpenSidebar(false)}>
+                            اخبار
+                          </a>
+                          <a href="#contact" className="li-sidebar" onClick={()=>setIsOpenSidebar(false)}>
+                            تماس
+                          </a>
                         </ul>
                       </div>
                     </div>

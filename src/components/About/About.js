@@ -2,7 +2,7 @@ import React from "react"
 import AboutBox from "./AboutBox"
 export default function About() {
   return (
-    <div className="bg-img-primary bg-cover py-20">
+    <div className="bg-img-primary bg-cover py-20" id="about">
       <div className="container-primary flex sm:flex-col md:flex-row items-center justify-between gap-10">
         <img
           src="/imgs/mobile-2.png"

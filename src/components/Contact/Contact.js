@@ -24,7 +24,7 @@ export default function Contact() {
   })
 
   return (
-    <div className="py-20">
+    <div className="py-20" id="contact">
       <div className="container-primary flex flex-col items-center justify-center gap-10">
         <h1
           className="text-minorTX sm:text-4xl md:text-7xl font-bold"
