@@ -19,7 +19,11 @@ import Contact from "./components/Contact/Contact"
 import Map from "./components/Map/Map"
 import Footer from "./components/Footer/Footer"
 import ScrollToTop from "./components/ScrollToTopbar/ScrollToTopbar"
+import AOS from "aos"
 function App() {
+  useEffect(()=>{
+    AOS.init({})
+  },[])
   const [isScrollBtnVisible, setIsScrollBtnVisible] = useState(false)
   useEffect(() => {
     window.addEventListener("scroll", handleShowScroll)
