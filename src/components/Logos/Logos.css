@@ -1,0 +1,16 @@
+.swiper {
+    @apply py-0 !important
+}
+
+.swiper-slide{
+   @apply h-10 !important
+}
+.imglogos{
+   @apply w-1/2 !important
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+   @apply text-white !important
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+   @apply text-lg  !important
+}

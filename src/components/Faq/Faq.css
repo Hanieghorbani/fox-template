@@ -1,0 +1,20 @@
+.MuiButtonBase-root {
+    @apply bg-primary text-white transition-all duration-500 py-2 !important;
+}
+.MuiPaper-root.Mui-expanded .MuiButtonBase-root {
+    @apply bg-gray-100 text-minorTX transition-all duration-500  !important;
+}
+
+.MuiAccordionSummary-expandIconWrapper {
+    @apply text-white !important;
+}
+.MuiPaper-root.Mui-expanded .MuiAccordionSummary-expandIconWrapper {
+    @apply rotate-45 text-minorTX !important;
+}
+.MuiPaper-root.Mui-expanded .MuiAccordionDetails-root {
+    @apply p-9 leading-9 !important;
+}
+
+.MuiPaper-root {
+    @apply rounded-2xl overflow-hidden my-5 shadow-md !important;
+}

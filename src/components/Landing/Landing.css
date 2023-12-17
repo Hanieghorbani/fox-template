@@ -1,0 +1,13 @@
+
+.header-bottom::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    border-left: 100vw solid #fff;
+    border-top: 200px solid transparent;
+    width: 0;
+    z-index: 3;
+}

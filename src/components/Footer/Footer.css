@@ -1,0 +1,10 @@
+.footer ul li:hover,.footer ul svg:hover{
+    @apply text-secondary
+}
+.footer ul li ,.footer ul svg{
+    @apply cursor-pointer transition-all duration-300 mb-4 md:mr-2
+}
+
+.footer ul li {
+    @apply mt-5
+}
