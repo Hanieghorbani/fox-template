@@ -1,3 +1,4 @@
+import { useEffect,useState } from "react"
 import "./App.css"
 import Header from "./components/Header/Header"
 import Landing from "./components/Landing/Landing"
@@ -17,12 +18,23 @@ import DownloadApp from "./components/DownloadApp/DownloadApp"
 import Contact from "./components/Contact/Contact"
 import Map from "./components/Map/Map"
 import Footer from "./components/Footer/Footer"
-import { useEffect } from "react"
-import Aos from "aos"
+import ScrollToTop from "./components/ScrollToTopbar/ScrollToTopbar"
 function App() {
-  useEffect(()=>{
-    Aos.init({})
-  },[])
+  const [isScrollBtnVisible, setIsScrollBtnVisible] = useState(false)
+  useEffect(() => {
+    window.addEventListener("scroll", handleShowScroll)
+    return () => {
+      window.removeEventListener("scroll", handleShowScroll)
+    }
+  }, [])
+
+  const handleShowScroll = () => {
+    if (window.scrollY > 400) {
+      setIsScrollBtnVisible(true)
+    } else {
+      setIsScrollBtnVisible(false)
+    }
+  }
   return (
     <div className="ov overflow-x-hidden">
       <section className="text-white">
@@ -49,6 +61,7 @@ function App() {
       <Contact />
       <Map />
       <Footer />
+      {isScrollBtnVisible && <ScrollToTop />}
     </div>
   )
 }
