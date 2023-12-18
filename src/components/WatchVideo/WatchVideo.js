@@ -9,7 +9,7 @@ export default function WatchVideo() {
         className="text-minorTX sm:text-4xl md:text-7xl font-bold"
         data-aos="zoom-in"
         data-aos-duration="2000"
-        data-aos-delay="500"
+        data-aos-delay="100"
       >
         مشاهده <span className="text-primary">ویدئو</span>
       </h1>
@@ -23,7 +23,7 @@ export default function WatchVideo() {
         className="video bg-img-people bg-cover relative overflow-hidden"
         data-aos="fade-up"
         data-aos-duration="2000"
-        data-aos-delay="500"
+        data-aos-delay="100"
 
       >
         <img src="/imgs/mobile-4-4.png" alt="" className="z-10 relative" />

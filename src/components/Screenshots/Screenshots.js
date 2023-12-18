@@ -15,7 +15,7 @@ export default function Screenshots() {
           className="text-minorTX sm:text-4xl md:text-7xl font-bold"
           data-aos="zoom-in"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
         >
           <span className="text-primary">تصاویر </span>عالی
         </h1>
@@ -25,7 +25,7 @@ export default function Screenshots() {
           ستون و
         </p>
 
-        <div className="w-full" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <div className="w-full" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
           <Swiper
             effect={"coverflow"}
             grabCursor={true}

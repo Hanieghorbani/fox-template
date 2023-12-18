@@ -12,7 +12,6 @@ export default function AboutBox({ icon, duration }) {
     <div
       data-aos="zoom-in-up"
       data-aos-duration={duration}
-      data-aos-delay="500"
     >
       <div className="text-primary sm:text-4xl lg:text-5xl mb-1">{icons[icon]}</div>
       <p className="sm:leading-6 lg:leading-8 md:text-sm md:leading-7">

@@ -17,7 +17,7 @@ export default function RecentNews() {
           className="text-minorTX  sm:text-4xl md:text-7xl font-bold"
           data-aos="zoom-in"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
 
         >
           <span className="text-primary">اخبار </span> جدید
@@ -41,7 +41,7 @@ export default function RecentNews() {
           loop={true}
           data-aos="fade-up"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
 
         >
           <SwiperSlide>

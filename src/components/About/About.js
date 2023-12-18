@@ -9,7 +9,6 @@ export default function About() {
           alt="mobile-2"
           data-aos="fade-left"
           data-aos-duration="2000"
-          data-aos-delay="500"
           className="w-[47%]"
         />
         <div className="md:space-y-5 lg:space-y-10 md:w-1/2 text-justify">

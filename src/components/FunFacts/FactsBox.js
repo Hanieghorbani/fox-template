@@ -19,7 +19,7 @@ export default function FactsBox({ title, number ,duration}) {
       data-aos="fade-up"
       data-aos-duration={duration}
       data-aos-anchor-placement="top-center"
-      data-aos-delay="500"
+      data-aos-delay="100"
 
     >
       <BsGift className="text-4xl text-primary" />

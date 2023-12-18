@@ -17,7 +17,7 @@ export default function Box({ title, icon,duration }) {
       data-aos="fade-up"
       data-aos-duration={duration}
       data-aos-anchor-placement="top-center"
-      data-aos-delay="500"
+      data-aos-delay="100"
 
     >
       <div

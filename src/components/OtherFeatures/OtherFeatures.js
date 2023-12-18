@@ -14,7 +14,7 @@ export default function OtherFeatures() {
           className="text-minorTX sm:text-4xl text-7xl font-bold text-center"
           data-aos="zoom-in"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
         >
           سایر <span className="text-white"> ویژگی های</span> عالی
         </h1>
@@ -42,7 +42,7 @@ export default function OtherFeatures() {
           loop={true}
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-delay="500"
+          data-aos-delay="100"
         >
           <SwiperSlide>
             <OtherFeatureBox title="نصب سریع" />

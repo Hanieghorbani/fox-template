@@ -8,7 +8,7 @@ export default function DownloadApp() {
           className="space-y-10 lg:w-1/2 text-justify"
           data-aos="fade-left"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
         >
           <h2 className="font-bold  sm:text-4xl md:text-5xl sm:text-center md:text-start text-minorTX">
             دریافت نسخه آزمایشی برنامه
@@ -36,7 +36,7 @@ export default function DownloadApp() {
           alt="mobile-2"
           data-aos="fade-right"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
 
         />
       </div>

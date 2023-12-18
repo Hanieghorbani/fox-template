@@ -8,7 +8,7 @@ export default function FunFacts() {
           className="text-minorTX sm:text-4xl md:text-7xl font-bold"
           data-aos="zoom-in"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
 
         >
           <span className="text-white">حقایق</span> جالب

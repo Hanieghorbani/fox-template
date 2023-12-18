@@ -30,7 +30,7 @@ export default function Contact() {
           className="text-minorTX sm:text-4xl md:text-7xl font-bold"
           data-aos="zoom-in"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
         >
           در <span className="text-primary">ارتباط</span> باشید
         </h1>
@@ -126,7 +126,7 @@ export default function Contact() {
           className="grid sm:grid-cols-1 md:grid-cols-3 gap-10 w-full mt-10"
           data-aos="flip-left"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
         >
           <ContactInfoBox
             title="82 تهران، میدان کاج، برج بلور، طبقه 456، واحد"

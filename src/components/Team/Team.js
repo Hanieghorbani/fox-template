@@ -8,7 +8,7 @@ export default function Team() {
           className="text-minorTX sm:text-4xl md:text-7xl font-bold"
           data-aos="zoom-in"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
 
         >
           <span className="text-primary">تیم</span> ما
@@ -23,7 +23,7 @@ export default function Team() {
           className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"
           data-aos="fade-up"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
         >
           <TeamBox
             name="تونی استارک"

@@ -13,7 +13,7 @@ export default function Faq() {
           className="text-minorTX sm:text-4xl md:text-7xl font-bold"
           data-aos="zoom-in"
           data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-delay="100"
         >
           <span className="text-primary">سوالات</span> متداول
         </h1>
@@ -28,7 +28,7 @@ export default function Faq() {
             className="md:col-span-2"
             data-aos="fade-left"
             data-aos-duration="2000"
-            data-aos-delay="500"
+            data-aos-delay="100"
           >
             <Accordion
               expanded={expandedPanel === "panel1"}
@@ -99,7 +99,7 @@ export default function Faq() {
             src="/imgs/mobile-1.png"
             data-aos="fade-right"
             data-aos-duration="2000"
-            data-aos-delay="500"
+            data-aos-delay="100"
             className="w-full"
           />
         </div>
